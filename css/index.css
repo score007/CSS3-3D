@@ -1,0 +1,47 @@
+#main{
+	overflow: hidden;
+	-webkit-perspective:800 ;
+	-webkit-perspective-origin: 50% 50%;
+}
+
+#page_all{
+	
+	width: 450px;
+	height: 450px;
+	margin: 0 auto;
+	-webkit-transform-style: preserve-3d;
+	position: relative;
+}
+
+.page{	
+	background-color: black;
+	width: 450px;
+	position: absolute;
+	color: white;
+	text-align: center;
+	font-size: 450px;
+	line-height: 450px;
+}
+
+#page1{
+	-webkit-transform-origin: bottom;
+	-webkit-transition: -webkit-transform 1s linear;
+}
+
+#page2,#page3,#page4,#page5,#page6,#page7{
+	-webkit-transform-origin: bottom;
+	-webkit-transition: -webkit-transform 1s linear;
+}
+
+#adj{
+	text-align: center;
+	margin: 10px auto;
+}
+
+.rotate-1{
+	-webkit-transform: rotateX(-90deg);
+}
+
+.rotate1{
+	-webkit-transform: rotateX(90deg);
+}
